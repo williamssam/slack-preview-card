@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- built with tailwind css -->
+  </head>
+  <body
+    class="flex flex-col h-screen justify-center items-center bg-mainBg text-gray-100 font-paragraph text-mainParagraph leading-6 px-32 mobile:px-8"
+  >
+    <!-- container -->
+    <div
+      class="container flex items-center bg-cardBg text-mainParagraph rounded-md overflow-hidden relative mobile:flex-col-reverse"
+    >
+      <!-- text-section -->
+      <section
+        class="py-14 px-16 flex-1 mobile:py-8 mobile:px-8 mobile:text-center"
+      >
+        <h2
+          class="font-heading text-4xl font-bold text text-white mobile:text-3xl mobile: pt-5"
+        >
+          Get <span class="text-accent">insights</span> that help your business
+          grow.
+        </h2>
+        <p class="pt-8 text-sm w-11/12 mobile:text-base">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <!-- stats section -->
+        <section class="flex justify-between w-11/12 pt-16 mobile:flex-col">
+          <div>
+            <h2 class="stat-paragraph">10k+</h2>
+            <p class="stat-heading">companies</p>
+          </div>
+
+          <div class="mobile:pt-6">
+            <h2 class="stat-paragraph">314</h2>
+            <p class="stat-heading">templates</p>
+          </div>
+
+          <div class="mobile:pt-6">
+            <h2 class="stat-paragraph">12<span class="uppercase">m</span>+</h2>
+            <p class="stat-heading">queries</p>
+          </div>
+        </section>
+      </section>
+
+      <!-- image section -->
+      <img
+        srcset="
+          ./images/image-header-desktop.jpg 446w,
+          ./images/image-header-mobile.jpg  480w
+        "
+        ,
+        sizes="(max-width:639px) 480px, 446px"
+        src="./images/image-header-desktop.jpg"
+        alt="woman smiling with a woman on a computer"
+        class="w-3/6 h-auto bg-accent mobile:w-full"
+      />
+
+      <!-- overlay -->
+      <div></div>
+      <div
+        class="absolute top-0 right-0 bottom-0 w-3/6 h-full bg-accent mix-blend-multiply mobile:w-full mobile:h-60"
+      ></div>
+    </div>
+
+    <div class="text-center p-10 text-sm">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Williams Samuel</a>.
+    </div>
+  </body>
+</html>
