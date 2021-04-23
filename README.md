@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Slack Preview](https://www.frontendmentor.io/solutions/slack-preview-card-with-tailwindcss-cKsnxlAoCl)
 - Live Site URL: [Stats Preview Card](https://williamssam.github.io/stats-preview-card-component)
 
 ## My process
@@ -56,5 +56,5 @@ Will be building more complex designs using Tailwind CSS in the future and also 
 
 ## Author
 
-- Frontend Mentor - [@ysuperbreezy007](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ysuperbreezy007](https://www.frontendmentor.io/profile/superbreezy007)
 - Twitter - [@williams_codes](https://www.twitter.com/williams_codes)
